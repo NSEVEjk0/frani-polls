@@ -1,0 +1,25 @@
+{
+  "name": "frani-polls",
+  "version": "1.0.0",
+  "description": "On-network voting with signed ballots and a tamper-proof tally. Made by CRYPTFRANI.",
+  "type": "module",
+  "bin": {
+    "frani-polls": "bin/frani-polls.js"
+  },
+  "scripts": {
+    "start": "node bin/frani-polls.js daemon",
+    "new": "node bin/frani-polls.js new",
+    "list": "node bin/frani-polls.js list",
+    "about": "node bin/frani-polls.js about",
+    "help": "node bin/frani-polls.js help",
+    "test": "node test/frani-polls.test.js"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@unicitylabs/sphere-sdk": "0.17.3",
+    "ws": "^8.21.3"
+  }
+}
