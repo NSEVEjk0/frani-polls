@@ -1,0 +1,13 @@
+{
+  "id": "poll_mvght83u_1tfhln",
+  "question": "Test?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "createdBy": "0xA",
+  "createdAt": "2026-10-20T09:40:38.346Z",
+  "open": true,
+  "ballots": {},
+  "updatedAt": 1792489238348
+}
